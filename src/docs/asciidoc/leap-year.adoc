@@ -1,7 +1,6 @@
 = Trivia Question
 ifndef::imagesdir[:imagesdir: images]
 :revealjs_theme: solarized
-:author: Greg Hutchinson
 
 
 [transition=slide-in fade-out]
