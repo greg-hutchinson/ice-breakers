@@ -1,88 +1,39 @@
-# Warm Up Exercise
+## Trivia Question
+@box[bg-purple  text-left text-white] (If you were living in Rome at the time<br>What was the date that followed Thursday October 4,1582? )
 ---
-# Retronym
-@box[bg-purple  text-left text-white] (A retronym is a newer name for an existing thing that differentiates the original form/version from a more recent one. <br>It is thus a word or phrase created to avoid confusion between two types, whereas previously, no clarification was required.)
+## Trivia Question (Hint)
+@box[bg-purple  text-left text-white] (If you were living in Rome at the time<br>What was the date that followed Thursday October 4,1582? )
+@box[bg-yellow  text-left text-white] (Pope Gregory XIII was the pope at that time)
 ---
-# Retronym
-@box[bg-purple  text-left text-white] ("Cloth Diaper" is a retronym.)
+## Trivia Question
+@box[bg-purple  text-left text-white] (If you were living in Rome at the time<br>What was the date that followed Thursday October 4,1582? )
+@box[bg-yellow  text-left text-white] (Pope Gregory XIII was the pope at that time)
+@box[bg-yellow  text-left text-white] (Something to do with Leap years )
+---
+## Trivia Question (Explanation)
+#### Julian Calendar was a Little Inaccurate
+@snap[midpoint text-09 text-left span-100 ]
+@ul[list-fade-fragments]
+- Leap years were every 4th year in the Julian Calendar
+- This was close but a little inaccurate (~10 mins / year)<br>(~10 mins / year * 1582 years / 1440 mins / day)
+- Over 15 centuries it adds up to 10 days
+- Vernal equinox was moving into winter, instead of spring
+- First Sunday after the first full moon after the vernal equinox which everyone knows better as ...
+@ulend
 @snapend
----
-# Retronym
-@box[bg-purple  text-left text-white] ("Cloth Diaper" is a retronym.)
-@box[bg-purple  text-left text-white] (Before disposable diapers came to be they were simply called "diapers")
-@snapend
+---?image=assets/img/easter-bunny.png&size=contain
+## Easter
 
 ---
-Here are the original words - You tell me the retronym.
-@ul[]
-- Guitar
-- Clock
-- Coca-Cola
-- Television
-- Telephone
-- Coffee
-- Transmission
-@ulend
----
-Here are the original words - You tell me the retronym.
-- Guitar - Acoustic Guitar
-- Clock - Analog Clock
-- Coca-Cola - Coca-Cola Classic
-- Television - Black and White TV
-- Telephone - Rotary Dial Telephone
-- Coffee - Regular Coffee
-- Transmission - Manual Transmission
----
-@snap[north text-09 text-left span-80 ]
-Ok - Now Down To Business<br><br><br>
-@snapend
-@snap[midpoint text-09 text-left span-80 ]
-Jira Best Practices
-@snapend
----
-@snap[north text-09 text-left span-80 ]
-Ok - Now Down To Business<br><br><br>
-@snapend
-@snap[midpoint text-09 text-left span-80 ]
-Jira ~~Best~~ Useful Practices
-@snapend
----
----
----
-What was done this sprint?
-@snap[midpoint text-06 text-left span-80 ]
-- Some cleanup - Archived the project JET
-- Board work for Regina and Saskatoon District
-- Move Alliance Service's Project back to Lending.
-- Jira Subtasks do not need product name - It will be set for you.
-- // Jira Tasks - last task will close parent task by default.
-- Value Stream Roadmap - Demo
-- Value Stream Delivered - Demo
-- Data Quality
-  - Finished with no FixVersions (Shouldn't be possible - but was)
-  - Child has different Epics as parent
-  - Detect multiple parents
-  - Parent of Stories
-- JQL Queries
-  - parentOfTask - returns a link to the parent story.
-  - projectsInTechnologySolutions
-  - JQL query startOfFiscal(), endOfFiscal()
-@snapend
----
-## Next Sprint
+## Trivia Question (Explanation)
+#### Switched to Gregorian Calendar from Julian
 @snap[midpoint text-09 text-left span-100 ]
-- Move Tech Enablement to Lending (Tech Solutions)
-- Cleanup
-  - Create more test cases unit testing, Integration testing.
-  - Simplify filters
-  - Delete dead code
-- Consistency changes (folding status).
-- Defining Status'
-- SN Integration problems
+@ul[list-fade-fragments]
+- Fixed the leap year calculation so that it is every 4th but not every 100th unless 400th
+- Dropped 10 days from the Calendar to realign Easter
+- So - The day after Thursday October 4,1582 was ...
+- Friday October 15, 1582
+- P.S. - Same thing happened in the US ~200 years later<br>Wednesday, 2 September 1752 was followed by <br>Thursday, 14 September 1752;
+@ulend
 @snapend
 ---
-## Miscellaneous
-- Q and A
-- Feedback / Comments
----
-## Thanks
