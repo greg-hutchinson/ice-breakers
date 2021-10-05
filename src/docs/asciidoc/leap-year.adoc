@@ -1,15 +1,17 @@
 = Trivia Question
 ifndef::imagesdir[:imagesdir: images]
 :revealjs_theme: solarized
+:revealjs_hash: true
+:tip-caption: 💡
+
 
 
 [transition=slide-in fade-out]
 ## Trivia Question 
 If you were living in Rome at the time, what was the date that followed Thursday October 4, 1582? 
 [%step]
-* *Hint: Pope Gregory XIII was the pope at that time.* +
-* *Hint: Something to do with Leap Years* +
-
+* *Hint: Gregory XIII was the pope at that time.* +
+* *Hint: Something to do with leap years* +
 
 ## Problem
 [%step]
