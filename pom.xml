@@ -45,8 +45,15 @@
                 </exclusion>
             </exclusions>
         </dependency>
-    </dependencies>
-
+<!-- https://mvnrepository.com/artifact/org.asciidoctor.jvm.convert/org.asciidoctor.jvm.convert.gradle.plugin 
+        <dependency>
+            <groupId>org.asciidoctor.jvm.convert</groupId>
+            <artifactId>org.asciidoctor.jvm.convert.gradle.plugin</artifactId>
+            <version>3.3.2</version>
+            <type>pom</type>
+        </dependency>
+-->
+</dependencies>
     <build>
         <defaultGoal>process-resources</defaultGoal>
         <extensions>
@@ -150,7 +157,6 @@
                                 <project-version>${project.version}</project-version>
                                 <!-- can use any pygments/rouge css here -->
                                 <rouge-css>class</rouge-css>
-                                <customcss>styles/monokai.css</customcss>
                                 <source-highlighter>rouge</source-highlighter>
                             </attributes>
                         </configuration>

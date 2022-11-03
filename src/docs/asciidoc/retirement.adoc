@@ -1,0 +1,30 @@
+ifndef::imagesdir[:imagesdir: images]
+:revealjs_theme: sky
+:revealjs_hash: true
+:tip-caption: 💡
+[transition=slide-in fade-out]
+
+# My Retirement
+What happened over the time that I worked
+
+
+## Night Writing Failed
+[%step]
+* His system used a grid of 6x6 dots 
+* Couldn't be read by one finger
+* Too Complex to learn
+
+## Louis Braille
+* Was blinded at an early age
+* At 11 years old started enhancing the "Night-Writing"
+
+
+[.columns]
+## The Braille System
+[.column]
+image::braille.png[Braille,640,480]
+[.column]
+[%step]
+- 6 dot system - 64 combinations
+- Fewer than 10 percent of the people who are legally blind in the United
+ States are Braille readers. 

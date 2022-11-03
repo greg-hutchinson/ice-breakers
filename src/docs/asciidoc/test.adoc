@@ -1,35 +1,189 @@
-// .custom-layout
-// The three different ways to hide slide titles
-// :include: //body/script | //div[@class="slides"]
-// :header_footer:
-
-= Custom Layout
+= Examples of Asciidoc and RevealJS
 ifndef::imagesdir[:imagesdir: images]
+:revealjs_theme: sky
+:revealjs_hash: true
+:icons: font
+:customcss: styles\greg.css
 
-== Cool Icon
 
+## Subtitle
+
+Greg Hutchinson
+
+== Stepping
+
+[%step]
+- blue
+- white
+- red
+
+The [.step.highlight-red]#greatest glory in living# lies not in never falling, but in [.step.highlight-red]#rising every time we fall#.
+
+## Other
+[#smaller-bullet]
+- sdffsda
+- sdfsadf
+
+sdfasadsdfa
+
+
+[#normal-bullet]
+- This is a bullet
+- and so is this
+
+[transition=zoom]
+== Zoom zoom
+
+This slide will override the presentation transition and zoom!
+
+[transition-speed=fast, %notitle]
+== Speed
+
+Choose from three transition speeds: default, fast or slow!- Default
+
+
+
+## Icons  
+// :tip-caption: 💡
+
+## Cool Icon
 Hello 👋
 
 
-== Column 
+TIP: sdfsadfsd 
+
+WARNING: This is a warning
+
+CAUTION: This is a caution
+
+[IMPORTANT] 
+.Feeding the Werewolves
+==== 
+While werewolves are hardy community members, keep in mind the following dietary concerns:
+
+. They are allergic to cinnamon.
+. More than two glasses of orange juice in 24 hours makes them howl in harmony with alarms and sirens.
+. Celery makes them sad.
+====
+
+## Quotes
+[quote]
+The pace of change has never been this fast, yet it will never be this slow again
+
+## Quotes block
+.After landing the cloaked Klingon bird of prey in Golden Gate park:
+[quote, Captain James T. Kirk, Star Trek IV: The Voyage Home]
+Everybody remember where we parked.
+
 [.columns]
-[.column]
+## Column - Let's  
+[.column.is-one-quarter]
 dsaffdsa
 
-[.column]
-adsfdaf
+[.column.is-three-quarters]
+image::easter-bunny.png[Bunny,640,480]
+fsdfdsafsdafdsaf + 
+dsafdsaf
+
+## Meme
+
+meme::easter-bunny.png[Doc writers,Y U NO // AsciiDoc]
+
+## Barcodes
+[qrcode]
+----
+Greg Hutchinson
+----
+
+## Youtube Video
+
+video::N7oz366X0-8[youtube,start=130,end=310]
+
+
+## Graphviz
+["graphviz", "sample2.png"]
+----
+digraph automata_0 {
+  size ="8.5, 11";
+  node [shape = circle];
+  0 [ style = filled, color=lightgrey ];
+  2 [ shape = doublecircle ];
+  0 -> 2 [ label = "a " ];
+  0 -> 1 [ label = "other " ];
+  1 -> 2 [ label = "a " ];
+  1 -> 1 [ label = "other " ];
+  2 -> 2 [ label = "a " ];
+  2 -> 1 [ label = "other " ];
+  "Machine: a" [ shape = plaintext ];
+}
+----
+
+
+## Graphviz 2
+[graphviz, "lifecycle_graph", "svg", role="stretch"]
+----
+digraph lifecycle {
+    bgcolor="transparent"
+    Initialization[shape=box][label=<
+    <table border="0" cellborder="0" cellspacing="1">
+        <tr><td align="left"><b>Initialization</b></td></tr>
+        <tr><td align="left">evaluate settings.gradle</td></tr>
+        <tr><td align="left">scan projects</td></tr>
+        <tr><td align="left">create Project instance</td></tr>
+    </table>>][color=white, fontcolor=white, fontname="Open Sans"]
+    Configuration[shape=box][label=<
+    <table border="0" cellborder="0" cellspacing="1">
+        <tr><td align="left"><b>Configuration</b></td></tr>
+        <tr><td align="left">evaluate build.gradle</td></tr>
+        <tr><td align="left">calculate dependencies</td></tr>
+        <tr><td align="left">create task execution graph</td></tr>
+    </table>>][color=white, fontcolor=white, fontname="Open Sans"]
+    Execution[shape=box][label=<
+    <table border="0" cellborder="0" cellspacing="1">
+        <tr><td align="left"><b>Execution</b></td></tr>
+        <tr><td align="left">execute specified tasks</td></tr>
+    </table>>][color=white, fontcolor=white, fontname="Open Sans"]
+    Initialization -> Configuration [type=s][color=white];
+    Configuration -> Execution [type=s][color=white];
+}
+----
+
+## Gnuplot
+[gnuplot, target=risk-graph.png, format=png]   
+.... 
+set xlabel "Number of weeks" font "Helvetica,20" 
+set ylabel "Number of Bugs" font "Helvetica,20"
+set key on bottom
+plot [0:6][0:110] x**2.5 title 'Risk grows exponentially!'
+....
+
+
+[%notitle]
+== Grand Announcement
+image::easter-bunny.png[background, size=cover]
+
+
+[background-color="yellow"]
+== Slide Three
+Is very yellow
+
 
 == Coludfsdfds
 
-
-
-
-[cols=2*,stripes=even]
+[cols="15%,30%,55%"]
 |===
-|A1
-|B1
-|A2
-|B2
-|A3
-|B3
+|Column 1 |Column 2 |Column 3
+
+|This column has a width of 15%
+|This column has a width of 30%
+|This column has a width of 55%
+|This column has a width of 15%
+|This column has a width of 30%
+|This column has a width of 55%
 |===
+
+
+
+// is-three-quarters. is-two-thirds , is-half is-one-third is-one-quarter
+// is-full is-four-fifths is-three-fifths is-two-fifths is-one-fifth
+
