@@ -12,7 +12,10 @@ If you were living in Rome at the time, what was the date that followed Thursday
 [%step]
 * *Hint: Gregory XIII was the pope at that time.* +
 * *Hint: Something to do with leap years* +
-* dd
+
+## Problem
+image::leapyear.gif[Leap,640,480]
+
 
 ## Problem
 [%step]
