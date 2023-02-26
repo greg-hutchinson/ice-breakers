@@ -4,6 +4,9 @@ ifndef::imagesdir[:imagesdir: images]
 :author: Greg Hutchinson
 :title-slide-transition: zoom
 :tip-caption: 💡
+:revealjs_hash: true
+:revealjs_center: false
+
 
 
 +++<small>+++
@@ -21,20 +24,44 @@ It is thus a word or phrase created to avoid confusion between two types, wherea
 
 ## Tell Me the Retronym
 
-[%step]
-* Guitar
-* Clock
-* Coca-Cola
-* Television
-* Telephone
-* Coffee
-* Transmission
-
-## Answers
-* Guitar - Acoustic Guitar
-* Clock - Analog Clock
-* Coca-Cola - Coca-Cola Classic
-* Television - Black and White TV
-* Telephone - Rotary Dial Telephone
-* Coffee - Regular Coffee
-* Transmission - Manual Transmission
+[cols="a,a,a"]
+|====
+|++++
+<details>
+  <summary>Mail</summary>
+  <p><b>Snail Mail</b></p>
+</details>
+<details>
+  <summary>Bike</summary>
+  <p><b>Push Bike</b></p>
+</details>
+<details>
+  <summary>World War</summary>
+  <p><b>World War I</b></p>
+</details>
+++++
+|++++
+<details>
+  <summary>Corn</summary>
+  <p><b>Corn on the cob</b></p>
+</details>
+<details>
+  <summary>CSI</summary>
+  <p><b>CSI: Las Vegas</b></p>
+</details>
+<details>
+  <summary>Milk</summary>
+  <p><b>Dairy Milk</b></p>
+</details>
+++++
+|++++
+<details>
+  <summary>Typewriter</summary>
+  <p><b>Manual Typewriter</b></p>
+</details>
+<details>
+  <summary>Store (Retail)</summary>
+  <p><b>Brick-and-Mortar Store</b></p>
+</details>
+++++
+|====
